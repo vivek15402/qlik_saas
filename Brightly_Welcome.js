@@ -1,3 +1,4 @@
+
 var config = {
     host: 'kqwa8cvf8jo28nl.sg.qlikcloud.com',
     prefix: '/',
