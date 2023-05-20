@@ -1,9 +1,9 @@
 var config = {
-    host: 'gachm8uu6azq33y.sg.qlikcloud.com',
+    host: 'kqwa8cvf8jo28nl.sg.qlikcloud.com',
     prefix: '/',
     port: 443,
     isSecure: true,
-    webIntegrationId: 'sXyaw6hTUmPa_ONq32daAvdZUu2CwHDn'
+    webIntegrationId: '4NPVDye7Kxzy7tSNzFXzHYKfQXTQxGHQ'
 };
 
 //Redirect to login if user is not logged in
@@ -61,14 +61,14 @@ require( ["js/qlik"], function ( qlik ) {
 	//});
 	
     //open apps -- inserted here --
-	var app = qlik.openApp( '7c03e3b5-0d10-4304-a4e1-d9e6c76a6a6f', config );
+	var app = qlik.openApp( 'b34d663a-5eae-42eb-b007-c0565426c233', config );
 	
     //get objects -- inserted here --
 	app.visualization.get('CSxZqS').then(function(vis){
     	vis.show("QV01");	
 	} );
 	
-	app.visualization.get('PAppmU').then(function(vis){
+	app.visualization.get('jUHbaS').then(function(vis){
     	vis.show("QV02");	
 	} );
     
